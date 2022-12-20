@@ -1,0 +1,136 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --green: #759f5f;
+    --navbg: #e1e7f5;
+    --beige: #cab7ad;
+    --blue: #e1e7f5;
+}
+
+nav.navbar {
+    background-color: var(--navbg);
+}
+
+img#navLogo {
+    width: auto;
+    height: 167px;
+}
+
+nav ul li {
+    font-size: 30px;
+}
+
+nav ul li a {
+    color: var(--green) !important;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#carousel {
+    height: 500px;
+    background-color: var(--beige);
+    color: white;
+    position: relative;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item div {
+    margin-top: 100px;
+    text-shadow: 0 0 10px rgb(0 0 0 / 70%);
+}
+
+.carousel-item button a {
+    text-decoration: none;
+    color: white;
+}
+
+#carousel h3 {
+    font-size: 30px;
+}
+
+#carousel p {
+    font-size: 22px;
+}
+
+#carousel .btn {
+    font-size: 24px;
+}
+
+#about .col-md-6 img {
+    display: block;
+    margin: 0 auto;
+}
+
+#about h2,
+#partnership h3,
+#mission h3 {
+    color: var(--green)
+}
+
+#about p,
+#partnership p,
+#mission p {
+    color: #444444;
+    font-size: 20px;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+#about .right {
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#cards,
+#partnership {
+    background-color: var(--beige);
+}
+
+#cards {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#cards .d-flex {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#cards .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#partnership h3,
+#mission h3 {
+    font-size: 32px;
+}
+
+#partnership p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: var(--blue);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+footer p i {
+    font-size: 30px;
+}
